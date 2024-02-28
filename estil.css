@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/*  font-family: "Honk", system-ui; */
+/*  font-family: "Titillium Web", sans-serif; */
+
+*{
+    padding: 0px;
+	margin: 0px;
+}
+
+body{
+    background-color: bisque;
+}
+
+.banner{
+	height: 100%;
+	background-size: cover;
+	margin-bottom: -110px;
+}
+
+.cabezera{
+    padding: 10px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	background: transparent;
+	background-color: rgba(255 255 255 / 0.5);
+	position: relative;
+	z-index: 10;
+}
+
+
+.contin{
+	width: 100%;
+	height: 700px;
+	padding-top: 130px;
+	background-color: rgb(220, 202, 228);
+}
+
+.contin p{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #2b3b69;
+}
+
+.contin h2{
+	padding-top: 30px;
+	font-family: 'Righteous'
+	'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #ad5ea3;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+
+
+
+.necessitats{
+	height: 750px;
+	display: flex;
+	text-align: center;
+}
+
+
+.intro h1{
+	text-align: center;
+}
+
+
+.sec{
+	width: 33%;
+	border: 1px solid black;
+}
+
+.sec1{
+	width: 33%;
+	background-color: #E0AED0;
+}
+
+.sec2{
+	color: #AC87C5;
+	width: 33%;
+}
+
+
+.image{
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.image h1{
+	text-align: center;
+	background-color: rgba(110, 91, 72, 0.5);
+	padding: 15px;
+	font-family: "Titillium Web", sans-serif;
+	color: blanchedalmond;
+
+}
+
+/*MI SECCION*/
+
+.seccion2 h2{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container{
+	margin: auto;
+	width: 1100px;
+}
+
+.serveis{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.bloc{
+	width: 450px;
+	height: 280px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.bloc h2{
+	margin-top: 20px;
+}
+
+.bloc p{
+	margin-top: 15px;
+}
+
+.bloc2{
+	width: 450px;
+	height: 290px;
+	margin-top: 45px;
+	text-align: center;
+}
+
+.bloc2 img{
+	width: 420px;
+}
+
+.bloc3{
+	width: 450px;
+	height: 250px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.bloc3 img{
+	width: 340px;
+}
+
+
+.sec3{
+	text-align: center;
+	padding-top: 80px
+}
+
+a{
+	text-decoration: none;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: olive;
+	color: white;
+	text-align: center;
+	transition-duration: 0.5s;
+	border: 3px solid antiquewhite;
+}
+
+a:hover{
+	background-color: rgb(159, 224, 214);
+	border: 3px solid antiquewhite;
+	transition-duration: 0.5s;
+}
