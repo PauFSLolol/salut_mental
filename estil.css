@@ -63,6 +63,10 @@ body{
 }
 
 
+.necessitats p{
+	color: black;
+}
+
 .intro h1{
 	text-align: center;
 }
